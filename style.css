@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #3c92d4;
+    border-radius: 5px;
+}
+
+.activity-form label,
+.activity-form input,
+.activity-form textarea,
+.activity-form button {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.activity-history ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.activity-history li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #1a1abb;
+    border-radius: 5px;
+}
+
+.summary {
+    margin-top: 20px;
+}
+
+.summary h2 {
+    margin-bottom: 10px;
+}
